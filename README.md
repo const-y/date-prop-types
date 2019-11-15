@@ -1,6 +1,7 @@
 <snippet>
-  <content><![CDATA[
-# ${1:date-prop-types}
+<content>
+
+# date-prop-types
 
 Validators for use with react propTypes
 
@@ -18,5 +19,6 @@ MyComponent.propTypes = {
 };
 ````
 ## License
-
-MIT
+This project is licensed under the MIT License
+</content>
+</snippet>
