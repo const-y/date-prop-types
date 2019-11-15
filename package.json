@@ -1,0 +1,24 @@
+{
+  "name": "date-prop-types",
+  "version": "0.1.0",
+  "description": "React props validators for checking date format",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/const-y/date-prop-types.git"
+  },
+  "keywords": [
+    "react",
+    "prop-types",
+    "date"
+  ],
+  "author": "Konstantin Yarish",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/const-y/date-prop-types/issues"
+  },
+  "homepage": "https://github.com/const-y/date-prop-types#readme"
+}
