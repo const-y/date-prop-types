@@ -1,6 +1,6 @@
 {
   "name": "date-prop-types",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "React props validators for checking date format",
   "main": "index.js",
   "scripts": {

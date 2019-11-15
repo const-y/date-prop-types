@@ -9,7 +9,6 @@ export const testDate = (date, pattern) => {
 
   return regex.test(date);
 };
-
 export const regexValidator = pattern => (props, propName, componentName) => {
   if (!testDate(props[propName], pattern)) {
     return new Error(`Invalid prop '${propName}' with value '${props[propName]}' supplied to ${componentName}, exacted date in ${pattern} format`, );
