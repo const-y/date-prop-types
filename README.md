@@ -1,6 +1,3 @@
-<snippet>
-<content>
-
 # date-prop-types
 
 Validators for use with react propTypes
@@ -20,5 +17,3 @@ MyComponent.propTypes = {
 ````
 ## License
 This project is licensed under the MIT License
-</content>
-</snippet>
