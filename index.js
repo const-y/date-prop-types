@@ -12,11 +12,11 @@ export const testDate = (date, pattern) => {
 
 export const regexValidator = pattern => (props, propName, componentName) => {
   if (!testDate(props[propName], pattern)) {
-    return new Error(`Invalid prop '${propName}' with value '${props[propName]}' supplied to ${componentName}`);
+    return new Error(`Invalid prop '${propName}' with value '${props[propName]}' supplied to ${componentName}, exacted date in ${pattern} format`, );
   }
 };
 
-const validator = regexValidator;
+const validator = regexValidator(pattern);
 
 validator.isRequired = (props, propName, componentName) => {
   if (!props[propName]) {
