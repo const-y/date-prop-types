@@ -20,6 +20,3 @@ MyComponent.propTypes = {
 ## License
 
 MIT
-]]></content>
-  <tabTrigger>readme</tabTrigger>
-</snippet>
