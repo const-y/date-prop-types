@@ -18,7 +18,9 @@ describe('main (index)', () => {
       const props = {
         [propName]: value,
       };
-      const result = validator.isRequired(props, propName);
+      const result = () => {
+        validator.isRequired(props, propName);
+      };
 
       expect(result).toThrow();
     });
