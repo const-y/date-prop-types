@@ -9,7 +9,7 @@ npm install date-prop-types --save-dev
 
 ## Usage
 ```javascript
-import { date } from 'date-prop-types';
+import date from 'date-prop-types';
 
 MyComponent.propTypes = {
     hiredDate: date('YYYY-DD-MM')
