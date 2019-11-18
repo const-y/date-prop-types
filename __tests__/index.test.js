@@ -1,5 +1,7 @@
 const validator = require('../lib');
+
 const propName = 'date';
+const defaultFormat = 'YYYY-MM-DD';
 
 describe('main (index)', () => {
   [null, undefined].forEach(value => {
@@ -7,7 +9,7 @@ describe('main (index)', () => {
       const props = {
         [propName]: value,
       };
-      const result = validator(props, propName);
+      const result = validator(defaultFormat)(props, propName);
 
       expect(result).toBe(undefined);
     });
@@ -19,7 +21,7 @@ describe('main (index)', () => {
         [propName]: value,
       };
       const result = () => {
-        validator.isRequired(props, propName);
+        validator(defaultFormat).isRequired(props, propName);
       };
 
       expect(result).toThrow();
