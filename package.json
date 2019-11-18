@@ -3,7 +3,7 @@
   "jest": {
     "verbose": true
   },
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "React props validators for checking date format",
   "main": "lib/index.js",
   "scripts": {
