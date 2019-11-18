@@ -12,7 +12,8 @@ npm install date-prop-types --save-dev
 import date from 'date-prop-types';
 
 MyComponent.propTypes = {
-    hiredDate: date('YYYY-DD-MM')
+  hiringDate: date('YYYY-DD-MM').isRequired,
+  dateOfDismissal: date('YYYY-DD-MM')
 };
 ````
 ## License
