@@ -1,4 +1,5 @@
 # date-prop-types
+[![Build Status](https://travis-ci.com/const-y/date-prop-types.svg?branch=master)](https://travis-ci.com/const-y/date-prop-types)
 
 Validators for use with react propTypes
 
