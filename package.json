@@ -3,7 +3,7 @@
   "jest": {
     "verbose": true
   },
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "React props validators for checking date format",
   "main": "lib/index.js",
   "scripts": {
@@ -26,5 +26,8 @@
   "homepage": "https://github.com/const-y/date-prop-types#readme",
   "devDependencies": {
     "jest": "^24.9.0"
+  },
+  "dependencies": {
+    "moment": "^2.24.0"
   }
 }
