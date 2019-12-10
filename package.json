@@ -3,11 +3,12 @@
   "jest": {
     "verbose": true
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React props validators for checking date format",
   "main": "lib/index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "babel src -d lib"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,9 @@
   },
   "homepage": "https://github.com/const-y/date-prop-types#readme",
   "devDependencies": {
+    "@babel/cli": "^7.7.5",
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
     "jest": "^24.9.0"
   },
   "dependencies": {

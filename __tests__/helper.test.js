@@ -1,4 +1,4 @@
-const helper = require('../lib/helper');
+import { checkDate } from '../src/helper';
 
 describe('helper', () => {
   describe('checkDate', () => {
@@ -54,7 +54,7 @@ describe('helper', () => {
       const { example, format, exact } = item;
 
       it(`${example} ${exact ? 'is' : 'isn\'t'} ${format}`, () => {
-        const result = helper.checkDate(example, format);
+        const result = checkDate(example, format);
 
         expect(result).toBe(exact)
       })

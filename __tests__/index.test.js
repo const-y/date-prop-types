@@ -1,4 +1,4 @@
-const validator = require('../lib');
+import validator from '../src';
 
 const propName = 'date';
 const defaultFormat = 'YYYY-MM-DD';

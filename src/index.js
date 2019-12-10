@@ -1,7 +1,7 @@
-var helper = require('./helper');
+import { checkDate } from './helper';
 
 /**
- * unbound pops validator
+ * unbound props validator
  * @param format
  * @param isRequired
  * @param props
@@ -15,7 +15,7 @@ function validator(format, isRequired, props, propName, componentName) {
     );
   }
 
-  if (!helper.checkDate(props[propName], format)) {
+  if (!checkDate(props[propName], format)) {
     throw Error(`Invalid prop '${propName}' with value '${props[propName]}' supplied to ${componentName}, exacted date in ${format} format`, );
   }
 }
@@ -28,4 +28,4 @@ function makeValidator(format) {
   return resultValidator;
 }
 
-module.exports = makeValidator;
+export default makeValidator;
