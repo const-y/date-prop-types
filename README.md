@@ -1,7 +1,6 @@
 # date-prop-types [![Build Status](https://travis-ci.com/const-y/date-prop-types.svg?branch=master)](https://travis-ci.com/const-y/date-prop-types)
 
-Validators for use with react propTypes
-
+A validator that you can use to verify that the formatted date that your React component receives has the specified format.
 ## Installation
 ```shell
 npm install date-prop-types --save-dev
